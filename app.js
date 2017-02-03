@@ -5,10 +5,15 @@ var totalIncorrect = [];
 console.log(totalCorrect);
 console.log(totalIncorrect);
 
-// Acquire the users name
-var userName = prompt('Hello, what\'s your name?') || 'Guest';
-alert('Hello ' + userName + ' nice to meet you!');
-console.log('User name: ' + userName);
+function nameUser(){
+
+  // Acquire the users name
+  var userName = prompt('Hello, what\'s your name?') || 'Guest';
+  alert('Hello ' + userName + ' nice to meet you!');
+  console.log('User name: ' + userName);
+};
+
+nameUser();
 
 // Question #1
 // Where was I born?
